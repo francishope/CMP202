@@ -1,12 +1,15 @@
-public static void main(String[] args) {
-    Person person = new Person();
-    person.setName("prince");
-    System.out.println(person.getName());
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args){
+        Stack stack = new Stack(capacity: 10);
+        stack.push ( 45);
+        stack.push ( 5);
+        stack.push ( 15);
+        stack.push ( 35);
+        stack.pop();
+        stack.pop();
+        stack.pop();
 
-    person.setPassword("3642864");
-    System.out.println(person.getPassword());
-
-    Physics physics = new Physics();
-    System.out.println(physics.initialVelocity1(23, 2);
-    System.out.println(physics.calculateVelocity(23, 53, 2));
+    }
 }
